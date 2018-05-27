@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(109, 96, 95);
+    background-image: url(question-marks.png);
+    color: #190D08;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 70px;
+    font-weight: 200;
+}
+ h1 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 70px;
+     color: #310216;
+ }
+
+ p {
+     font-size: 14px;
+     line-height: 30px;
+ }
+
+ #psyduck {
+     float: right;
+ }
+
+.jumbotron {
+    background: rgba(252, 202, 101, 0.959);
+    border: 2px solid #234039;
+    margin: 20px;
+    padding: 20px;
+}
+
+#main-container {
+    background: rgba(79, 189, 171, 0.884);
+    border: 2px solid #234039;
+    border-radius: 5px;
+    margin: 20px;
+    width: 1070px;
+}
+
+@media screen and (max-width: 980px){
+    h1 {
+        font-size: 40px;
+    }
+     h2 {
+         font-size: 20px;
+     }
+
+     #main-container {
+         max-width: 94%;
+     }
+}
+
+@media screen and (max-width:1199px){
+    #main-container {
+        width: 890px;
+    }
+}
